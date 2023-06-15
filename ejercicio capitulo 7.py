@@ -5,6 +5,8 @@ Created on Tue Jun  6 19:49:17 2023
 @author: Cesar Perez
 """
 
+#Programa que crea una tabla de jugadores ingresando sus caracteristicas
+
 nombre=[""]
 renglon= [5]
 columna=[10]
@@ -18,7 +20,7 @@ for i in range(len(renglon)):
         edad=input("Dame la edad: ")
         
         if edad <=18 :
-            print("Morro")
+            print("Menor")
             
         else:
             print("Dato guardado")
@@ -28,7 +30,7 @@ for i in range(len(renglon)):
         altura= int(input("Dame la altura en cm: "))
         
         if altura <=180 :
-            print("chaparro")
+            print("Muy bajo")
             
         else:
             print("Dato guardado")
@@ -38,7 +40,7 @@ for i in range(len(renglon)):
         peso= float(input("Dame el peso: "))
         
         if peso <=50 :
-            print("flaco")
+            print("Bajo de peso")
             
         else:
             print("Dato guardado")
